@@ -390,6 +390,47 @@ export default function Home() {
                 </div>
               </div>
             </div>
+            <div className="flex justify-center pt-10 pb-10">
+              <div className="w-[250px] max-w-full mx-auto flex gap-5 items-center">
+                <button type="button">
+                  <svg
+                    width="8"
+                    height="12"
+                    viewBox="0 0 8 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M7.08926 0.410826C7.4147 0.736263 7.4147 1.2639 7.08926 1.58934L2.67851 6.00008L7.08926 10.4108C7.41469 10.7363 7.41469 11.2639 7.08926 11.5893C6.76382 11.9148 6.23618 11.9148 5.91075 11.5893L0.910747 6.58934C0.58531 6.2639 0.58531 5.73626 0.910747 5.41083L5.91075 0.410826C6.23618 0.0853888 6.76382 0.0853888 7.08926 0.410826Z"
+                      fill="#535668"
+                    />
+                  </svg>
+                </button>
+                <ul className="flex items-center gap-0.5">
+                  <li><button type="button" className="w-6 h-6 flex justify-center items-center text-sm rounded-md hover:bg-brand-blue text-[#818E9B] hover:text-white">1</button></li>
+                  <li><button type="button" className="active w-6 h-6 flex justify-center items-center text-sm rounded-md hover:bg-brand-blue text-[#818E9B] hover:text-white">2</button></li>
+                  <li><button type="button" className="w-6 h-6 flex justify-center items-center text-sm rounded-md hover:bg-brand-blue text-[#818E9B] hover:text-white">3</button></li>
+                  <li><button type="button" className="w-6 h-6 flex justify-center items-center text-sm rounded-md hover:bg-brand-blue text-[#818E9B] hover:text-white">4</button></li>
+                  <li><button type="button" className="w-6 h-6 flex justify-center items-center text-sm rounded-md hover:bg-brand-blue text-[#818E9B] hover:text-white">5</button></li>
+                  <li><button type="button" className="w-6 h-6 flex justify-center items-center text-sm rounded-md hover:bg-brand-blue text-[#818E9B] hover:text-white">...</button></li>
+                  <li><button type="button" className="w-6 h-6 flex justify-center items-center text-sm rounded-md hover:bg-brand-blue text-[#818E9B] hover:text-white">12</button></li>
+                </ul>
+                <button type="button">
+                  <svg
+                    width="8"
+                    height="12"
+                    viewBox="0 0 8 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0.910742 11.5892C0.585305 11.2637 0.585305 10.7361 0.910742 10.4107L5.32149 5.99992L0.910742 1.58917C0.585305 1.26374 0.585305 0.7361 0.910742 0.410663C1.23618 0.085226 1.76382 0.085226 2.08925 0.410663L7.08925 5.41066C7.41469 5.7361 7.41469 6.26374 7.08925 6.58917L2.08925 11.5892C1.76382 11.9146 1.23618 11.9146 0.910742 11.5892Z"
+                      fill="#535668"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
           </div>
         </section>
       </main>

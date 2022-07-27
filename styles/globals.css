@@ -8,3 +8,8 @@
     @apply !font-nunito
   }
 }
+@layer {
+  .active{
+      @apply !bg-brand-blue !text-white
+  }
+}
