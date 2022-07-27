@@ -10,7 +10,7 @@ import bannerMobile from "../public/banner-mobile.png";
 import aws from "../public/aws.svg";
 export default function Banner() {
   return (
-    <section className="pt-24 px-4 bg-[url(../public/banner-bg-mobile.png)] lg:bg-[url(../public/banner-bg.png)] bg-cover bg-center bg-no-repeat">
+    <section className="pt-24 px-4 bg-[url(/banner-bg-mobile.png)] lg:bg-[url(../public/banner-bg.png)] bg-cover bg-center bg-no-repeat">
       <div className="container mx-auto">
         <div className="flex flex-col items-center lg:items-start lg:flex-row gap-6 xl:gap-10">
           <div className="w-[500px] max-w-full lg:pt-14">
