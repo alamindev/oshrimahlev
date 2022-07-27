@@ -89,7 +89,7 @@ export default function Course({ id, title, user_name, tag, rating, brand, image
                       </div>
                     </div>
                   </div>
-                  <span class="text-[#777886]">Pay by course</span>
+                  <span className="text-[#777886]">Pay by course</span>
                 </div>
               </li>
             </ul>
