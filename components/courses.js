@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from "next/image"; 
-import Course from "../components/Course";
+import Course from "../components/course";
 import { CourseDatas } from "../data"; 
 export default function Courses() { 
   return (
