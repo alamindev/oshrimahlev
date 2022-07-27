@@ -62,7 +62,7 @@ export default function Home() {
                                 </div>
                                 <div class="ml-3 text-sm">
                                   <label
-                                    for="offer-1"
+                                    htmlFor="offer-1"
                                     class="font-normal text-[#535668]"
                                   >
                                     EdX (284)
@@ -80,7 +80,7 @@ export default function Home() {
                                 </div>
                                 <div class="ml-3 text-sm">
                                   <label
-                                    for="offer-2"
+                                    htmlFor="offer-2"
                                     class="font-normal text-[#535668]"
                                   >
                                     Udemy (202)
@@ -98,7 +98,7 @@ export default function Home() {
                                 </div>
                                 <div class="ml-3 text-sm">
                                   <label
-                                    for="offer-3"
+                                    htmlFor="offer-3"
                                     class="font-normal text-[#535668]"
                                   >
                                     Coursera (186)
@@ -116,7 +116,7 @@ export default function Home() {
                                 </div>
                                 <div class="ml-3 text-sm">
                                   <label
-                                    for="offer-4"
+                                    htmlFor="offer-4"
                                     class="font-normal text-[#535668]"
                                   >
                                     Edureka (113)
@@ -157,74 +157,74 @@ export default function Home() {
                             </svg>
                           </Disclosure.Button>
                           <Disclosure.Panel as="div" className="pt-5">
-                            <fieldset class="space-y-5">
-                              <div class="relative flex items-start">
-                                <div class="flex items-center h-5">
+                            <fieldset className="space-y-5">
+                              <div className="relative flex items-start">
+                                <div className="flex items-center h-5">
                                   <input
                                     id="offer-1"
                                     name="offer"
                                     type="checkbox"
-                                    class="focus:ring-[#B9D0E7] h-5 w-5 text-[#B9D0E7] border-[#B9D0E7] rounded"
+                                    className="focus:ring-[#B9D0E7] h-5 w-5 text-[#B9D0E7] border-[#B9D0E7] rounded"
                                   />
                                 </div>
-                                <div class="ml-3 text-sm">
+                                <div className="ml-3 text-sm">
                                   <label
-                                    for="offer-1"
-                                    class="font-normal text-[#535668]"
+                                    htmlFor="offer-1"
+                                    className="font-normal text-[#535668]"
                                   >
                                     EdX (284)
                                   </label>
                                 </div>
                               </div>
-                              <div class="relative flex items-start">
-                                <div class="flex items-center h-5">
+                              <div className="relative flex items-start">
+                                <div className="flex items-center h-5">
                                   <input
                                     id="offer-2"
                                     name="offer"
                                     type="checkbox"
-                                    class="focus:ring-[#B9D0E7] h-5 w-5 text-[#B9D0E7] border-[#B9D0E7] rounded"
+                                    className="focus:ring-[#B9D0E7] h-5 w-5 text-[#B9D0E7] border-[#B9D0E7] rounded"
                                   />
                                 </div>
-                                <div class="ml-3 text-sm">
+                                <div className="ml-3 text-sm">
                                   <label
-                                    for="offer-2"
-                                    class="font-normal text-[#535668]"
+                                    htmlFor="offer-2"
+                                    className="font-normal text-[#535668]"
                                   >
                                     Udemy (202)
                                   </label>
                                 </div>
                               </div>
-                              <div class="relative flex items-start">
-                                <div class="flex items-center h-5">
+                              <div className="relative flex items-start">
+                                <div className="flex items-center h-5">
                                   <input
                                     id="offer-3"
                                     name="offer"
                                     type="checkbox"
-                                    class="focus:ring-[#B9D0E7] h-5 w-5 text-[#B9D0E7] border-[#B9D0E7] rounded"
+                                    className="focus:ring-[#B9D0E7] h-5 w-5 text-[#B9D0E7] border-[#B9D0E7] rounded"
                                   />
                                 </div>
-                                <div class="ml-3 text-sm">
+                                <div className="ml-3 text-sm">
                                   <label
-                                    for="offer-3"
-                                    class="font-normal text-[#535668]"
+                                    htmlFor="offer-3"
+                                    className="font-normal text-[#535668]"
                                   >
                                     Coursera (186)
                                   </label>
                                 </div>
                               </div>
-                              <div class="relative flex items-start">
-                                <div class="flex items-center h-5">
+                              <div className="relative flex items-start">
+                                <div className="flex items-center h-5">
                                   <input
                                     id="offer-4"
                                     name="offer"
                                     type="checkbox"
-                                    class="focus:ring-[#B9D0E7] h-5 w-5 text-[#B9D0E7] border-[#B9D0E7] rounded"
+                                    className="focus:ring-[#B9D0E7] h-5 w-5 text-[#B9D0E7] border-[#B9D0E7] rounded"
                                   />
                                 </div>
-                                <div class="ml-3 text-sm">
+                                <div className="ml-3 text-sm">
                                   <label
-                                    for="offer-4"
-                                    class="font-normal text-[#535668]"
+                                    htmlFor="offer-4"
+                                    className="font-normal text-[#535668]"
                                   >
                                     Edureka (113)
                                   </label>
@@ -264,73 +264,73 @@ export default function Home() {
                             </svg>
                           </Disclosure.Button>
                           <Disclosure.Panel as="div" className="pt-5">
-                            <fieldset class="space-y-5">
-                              <div class="relative flex items-start">
-                                <div class="flex items-center h-5">
+                            <fieldset className="space-y-5">
+                              <div className="relative flex items-start">
+                                <div className="flex items-center h-5">
                                   <input
                                     id="offer-1"
                                     name="offer"
                                     type="checkbox"
-                                    class="focus:ring-[#B9D0E7] h-5 w-5 text-[#B9D0E7] border-[#B9D0E7] rounded"
+                                    className="focus:ring-[#B9D0E7] h-5 w-5 text-[#B9D0E7] border-[#B9D0E7] rounded"
                                   />
                                 </div>
-                                <div class="ml-3 text-sm">
+                                <div className="ml-3 text-sm">
                                   <label
-                                    for="offer-1"
-                                    class="font-normal text-[#535668]"
+                                    htmlFor="offer-1"
+                                    className="font-normal text-[#535668]"
                                   >
                                     EdX (284)
                                   </label>
                                 </div>
                               </div>
-                              <div class="relative flex items-start">
-                                <div class="flex items-center h-5">
+                              <div className="relative flex items-start">
+                                <div className="flex items-center h-5">
                                   <input
                                     id="offer-2"
                                     name="offer"
                                     type="checkbox"
-                                    class="focus:ring-[#B9D0E7] h-5 w-5 text-[#B9D0E7] border-[#B9D0E7] rounded"
+                                    className="focus:ring-[#B9D0E7] h-5 w-5 text-[#B9D0E7] border-[#B9D0E7] rounded"
                                   />
                                 </div>
-                                <div class="ml-3 text-sm">
+                                <div className="ml-3 text-sm">
                                   <label
-                                    for="offer-2"
-                                    class="font-normal text-[#535668]"
+                                    htmlFor="offer-2"
+                                    className="font-normal text-[#535668]"
                                   >
                                     Udemy (202)
                                   </label>
                                 </div>
                               </div>
-                              <div class="relative flex items-start">
-                                <div class="flex items-center h-5">
+                              <div className="relative flex items-start">
+                                <div className="flex items-center h-5">
                                   <input
                                     id="offer-3"
                                     name="offer"
                                     type="checkbox"
-                                    class="focus:ring-[#B9D0E7] h-5 w-5 text-[#B9D0E7] border-[#B9D0E7] rounded"
+                                    className="focus:ring-[#B9D0E7] h-5 w-5 text-[#B9D0E7] border-[#B9D0E7] rounded"
                                   />
                                 </div>
-                                <div class="ml-3 text-sm">
+                                <div className="ml-3 text-sm">
                                   <label
-                                    for="offer-3"
-                                    class="font-normal text-[#535668]"
+                                    htmlFor="offer-3"
+                                    className="font-normal text-[#535668]"
                                   >
                                     Coursera (186)
                                   </label>
                                 </div>
                               </div>
-                              <div class="relative flex items-start">
-                                <div class="flex items-center h-5">
+                              <div className="relative flex items-start">
+                                <div className="flex items-center h-5">
                                   <input
                                     id="offer-4"
                                     name="offer"
                                     type="checkbox"
-                                    class="focus:ring-[#B9D0E7] h-5 w-5 text-[#B9D0E7] border-[#B9D0E7] rounded"
+                                    className="focus:ring-[#B9D0E7] h-5 w-5 text-[#B9D0E7] border-[#B9D0E7] rounded"
                                   />
                                 </div>
                                 <div class="ml-3 text-sm">
                                   <label
-                                    for="offer-4"
+                                    htmlFor="offer-4"
                                     class="font-normal text-[#535668]"
                                   >
                                     Edureka (113)
