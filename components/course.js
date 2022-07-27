@@ -5,8 +5,8 @@ export default function Course({ id, title, user_name, tag, brand, image, date, 
   return (
     <div className="border border-brand-gray p-6 bg-white rounded-md">
       <ul className="flex flex-wrap gap-2 items-center pb-6">
-        {tag.map((t) => (
-          <li>
+        {tag.map((index, t) => (
+          <li key={index}>
             <a
               className="inline-block px-3 py-2 bg-[#EFF8FF] rounded-full text-brand-blue text-xs font-medium"
               href="#"
