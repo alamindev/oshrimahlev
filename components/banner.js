@@ -10,11 +10,11 @@ import bannerMobile from "../public/banner-mobile.png";
 import aws from "../public/aws.svg";
 export default function Banner() {
   return (
-    <section className="pt-24 px-4 bg-[url(/banner-bg-mobile.png)] lg:bg-[url(/banner-bg.png)] bg-cover bg-center bg-no-repeat">
+    <section className="pt-24 overflow-hidden px-4 bg-[url(/banner-bg-mobile.png)] lg:bg-[url(/banner-bg.png)] bg-cover bg-center bg-no-repeat">
       <div className="container mx-auto">
         <div className="flex flex-col items-center lg:items-start lg:flex-row gap-6 xl:gap-10">
           <div className="w-[500px] max-w-full lg:pt-14">
-            <h1 className="text-[48px] font-bold !leading-[54px] text-white pb-5">
+            <h1 className="text-[36px] lg:text-[48px] font-bold !leading-[54px] text-white pb-5">
               Grow up your skills by online courses
             </h1>
             <p className="text-[22px] font-semibold text-[#ACAFC9]">
@@ -45,7 +45,7 @@ export default function Banner() {
             <div className="hidden lg:block -mb-3.5">
               <Image src={bannerDesktop} alt="banner-desktop" />
             </div>
-            <div className="lg:hidden">
+            <div className="lg:hidden -mb-3.5">
               <Image src={bannerMobile} alt="banner-mobile" />
             </div>
           </div>
