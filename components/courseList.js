@@ -22,13 +22,13 @@ export default function Course({ id, title, user_name, islive, tag, rating, deta
           <Image src={brand} width="60" height="20" alt="edureka" />
         </div>
       </div>
-      <div className="gap-5 flex">
-        <div className="mb-6 shrink-0 w-[200px] h-[142px] relative rounded-lg overflow-hidden">
+      <div className="gap-5 flex flex-col md:flex-row">
+        <div className="mb-6 shrink-0 w-full md:w-[200px] h-[142px] relative rounded-lg overflow-hidden">
           <Image src={image} layout="fill" objectFit="cover" alt="edureka" />
         </div>
-        <div className="flex gap-10 justify-between w-full">
+        <div className="flex flex-col sm:flex-row gap-4 md:gap-10 justify-between w-full">
           <div className="w-full">
-            <h2 className="text-xl font-bold mb-5">
+            <h2 className="text-lg sm:text-xl font-bold mb-5">
               {title}
               {islive && (
                 <span className="px-3 py-1.5 inline-block ml-2 rounded-full text-xs bg-[#FFF3F3] text-[#FF2525]">
@@ -41,11 +41,11 @@ export default function Course({ id, title, user_name, islive, tag, rating, deta
               {details}
             </p>
           </div>
-          <div className="w-[115px] shrink-0 max-w-full">
+          <div className="sm:w-[115px] flex justify-between sm:block shrink-0 max-w-full">
             <div className="flex justify-end">
               <StarRating rating={rating} />
             </div>
-            <div className="flex flex-col items-end mt-14">
+            <div className="flex flex-col items-end sm:mt-14">
               <div className="flex gap-2">
                 <p
                   className={`font-bold text-lg  leading-[1] ${
@@ -56,10 +56,10 @@ export default function Course({ id, title, user_name, islive, tag, rating, deta
                 </p>
                 <div className="relative group w-4 h-4">
                   <Image src="/info.svg" width="20" height="20" alt="edureka" />
-                  <div className="absolute top-6 -left-[50%] -translate-x-[40%] flex-col items-center hidden  mb-6 group-hover:flex">
-                    <div className="w-3 h-3 -mb-2 rotate-45 bg-[#57575E]"></div>
+                  <div className="absolute top-6 -right-6 lg:right-auto lg:-left-[50%] lg:-translate-x-[40%] flex-col  items-end lg:items-center hidden  mb-6 group-hover:flex">
+                    <div className="w-3 h-3 -mb-2 mr-7 lg:mr-0 rotate-45 bg-[#57575E]"></div>
                     <div className="relative z-10 p-5 text-xs leading-none text-white whitespace-nowrap rounded-xl bg-[#57575E] shadow-[0_12px_16px_0_rgba(16,24,40,0.18)]">
-                      <ul className="flex flex-col gap-2 items-start list-disc">
+                      <ul className="flex flex-col gap-2 items-start list-disc list-inside">
                         <li className="text-xs">Pay buy course</li>
                         <li className="text-xs">Full lifetime access</li>
                         <li className="text-xs">Access on mobile and TV</li>
@@ -74,8 +74,8 @@ export default function Course({ id, title, user_name, islive, tag, rating, deta
           </div>
         </div>
       </div>
-      <div className="flex items-end gap-10 justify-between pt-4">
-        <div className="w-[330px] max-w-full ">
+      <div className="flex flex-wrap sm:flex-nowrap sm:items-end sm:gap-6  md:gap-10 justify-between pt-4">
+        <div className="md:w-[330px] w-1/2  flex justify-end sm:justify-start  max-w-full order-3 md:order-1">
           <button
             type="button"
             className="flex gap-2 items-center text-[15px] font-semibold text-[#888A9C]"
@@ -95,7 +95,7 @@ export default function Course({ id, title, user_name, islive, tag, rating, deta
             </svg>
           </button>
         </div>
-        <ul className="flex w-full flex-col gap-4">
+        <ul className="flex w-full flex-col gap-4 order-1 md:order-2 pb-3 sm:pb-0">
           <li className="flex items-center gap-3">
             <svg
               width="18"
@@ -127,7 +127,7 @@ export default function Course({ id, title, user_name, islive, tag, rating, deta
             <p className="text-base font-medium text-[#535668]"> {date}</p>
           </li>
         </ul>
-        <div className="shrink-0">
+        <div className="w-1/2 sm:w-auto shrink-0 order-2 md:order-2">
           <Link href={`/${id}`}>
             <a className="flex gap-2 items-center text-brand-blue">
               View details

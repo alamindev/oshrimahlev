@@ -13,11 +13,11 @@ export default function Home() {
         <section className="px-4 py-10">
           <div className="container mx-auto">
             <div className="pb-8">
-              <h2 className="text-2xl font-medium">
+              <h2 className="text-lg md:text-2xl font-medium">
                 Showing 137 results for <strong>Python</strong>
               </h2>
-              <div className="flex gap-10 pt-10">
-                <div className="w-[300px] shrink-0 max-w-full">
+              <div className="flex flex-col lg:flex-row gap-5 xl:gap-10 pt-10">
+                <div className="lg:w-[250px] xl:w-[300px] shrink-0 max-w-full">
                   <div className="w-full bg-[#F1F8FF] border border-[#B9D0E7] rounded-md shadow-[0_4px_4px_0_rgba(0,0,0,.25)]">
                     <Disclosure
                       as="div"
@@ -55,7 +55,7 @@ export default function Home() {
                                   <input
                                     id="offer-1"
                                     name="offer"
-                                    type="checkbox"
+                                    type="radio"
                                     className="focus:ring-[#B9D0E7] h-5 w-5 text-[#B9D0E7] border-[#B9D0E7] rounded"
                                   />
                                 </div>
@@ -73,7 +73,7 @@ export default function Home() {
                                   <input
                                     id="offer-2"
                                     name="offer"
-                                    type="checkbox"
+                                    type="radio"
                                     className="focus:ring-[#B9D0E7] h-5 w-5 text-[#B9D0E7] border-[#B9D0E7] rounded"
                                   />
                                 </div>
@@ -91,7 +91,7 @@ export default function Home() {
                                   <input
                                     id="offer-3"
                                     name="offer"
-                                    type="checkbox"
+                                    type="radio"
                                     className="focus:ring-[#B9D0E7] h-5 w-5 text-[#B9D0E7] border-[#B9D0E7] rounded"
                                   />
                                 </div>
@@ -109,7 +109,7 @@ export default function Home() {
                                   <input
                                     id="offer-4"
                                     name="offer"
-                                    type="checkbox"
+                                    type="radio"
                                     className="focus:ring-[#B9D0E7] h-5 w-5 text-[#B9D0E7] border-[#B9D0E7] rounded"
                                   />
                                 </div>
@@ -127,7 +127,7 @@ export default function Home() {
                                   <input
                                     id="offer-5"
                                     name="offer"
-                                    type="checkbox"
+                                    type="radio"
                                     className="focus:ring-[#B9D0E7] h-5 w-5 text-[#B9D0E7] border-[#B9D0E7] rounded"
                                   />
                                 </div>
@@ -145,7 +145,7 @@ export default function Home() {
                                   <input
                                     id="offer-6"
                                     name="offer"
-                                    type="checkbox"
+                                    type="radio"
                                     className="focus:ring-[#B9D0E7] h-5 w-5 text-[#B9D0E7] border-[#B9D0E7] rounded"
                                   />
                                 </div>

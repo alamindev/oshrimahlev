@@ -79,7 +79,7 @@ export default function Course({ id, title, user_name, tag, rating, brand, image
                       <div className="absolute top-6 -left-[50%] -translate-x-[40%] flex-col items-center hidden  mb-6 group-hover:flex">
                         <div className="w-3 h-3 -mb-2 rotate-45 bg-[#57575E]"></div>
                         <div className="relative z-10 p-5 text-xs leading-none text-white whitespace-nowrap rounded-xl bg-[#57575E] shadow-[0_12px_16px_0_rgba(16,24,40,0.18)]">
-                          <ul className="flex flex-col gap-2 items-start list-disc">
+                          <ul className="flex flex-col gap-2 items-start list-disc list-inside">
                             <li className="text-xs">Pay buy course</li>
                             <li className="text-xs">Full lifetime access</li>
                             <li className="text-xs">Access on mobile and TV</li>
